@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.monprojet.controller.EntrepriseController">
+    <TextField fx:id="searchField" promptText="Entrez le nom ou le SIRET de l'entreprise"/>
+    <Button text="Rechercher" onAction="#handleSearch"/>
+</VBox>
